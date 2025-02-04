@@ -1,0 +1,8 @@
+POST http://localhost:3000/api/banco/crear
+Content-Type: application/json
+{
+    "id": 2,
+    "capital": 10000,
+    "interes": 0.36,
+    "meses": 24
+}
