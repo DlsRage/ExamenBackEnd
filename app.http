@@ -1,4 +1,4 @@
-POST http://localhost:3000/api/banco/crear
+POST https://examen-back-end.vercel.app/banco/crear
 Content-Type: application/json
 {
     "id": 2,

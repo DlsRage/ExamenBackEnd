@@ -9,6 +9,6 @@ export class ControlBanco{
     create = async (req,res) =>{
         const newB = req.body
         const data = await this.model.create(newB)
-        return data
+        res.json(data)
     }
 }
